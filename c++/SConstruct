@@ -1,0 +1,2 @@
+StaticLibrary('cppstaticlib', ['c++_static_lib/work.cc'])
+SharedLibrary('cppinterfacelib', ['c++_interface_lib/interface.cc'], LIBS=['cppstaticlib'], LIBPATH='.')
