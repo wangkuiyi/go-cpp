@@ -1,7 +1,7 @@
 package cgo_lib
 
-// #cgo darwin CFLAGS: -I../../../c++/
-// #cgo darwin LDFLAGS: -L../../../c++ -lcppinterfacelib
+// #cgo CFLAGS: -I../../../c++/
+// #cgo LDFLAGS: -L../../../c++ -lcppinterfacelib
 // #include "c++_interface_lib/interface.h"
 import "C"
 
